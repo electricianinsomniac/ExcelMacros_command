@@ -3,14 +3,14 @@ The repository macros command empowers users to automate complex tasks, standard
 # Overview
 The repository macros command is a powerful feature designed to enhance workflow efficiency and automate repetitive tasks within a software repository environment. By defining macros, users can create custom commands or sequences of actions to streamline operations, increase productivity, and maintain consistency across projects.
 
-#Getting Started
+# Getting Started
 Press Alt + F11 to open the Visual Basic for Applications (VBA) editor. Alternatively, you can go to the "Developer" tab on the Excel ribbon (if not visible, you may need to enable it in Excel options), and click on "Visual Basic" to open the VBA editor.
 
-##Insert a New Module
+## Insert a New Module
 In the VBA editor window, go to the "Insert" menu and choose "Module." This action will insert a new module where you can write or paste your VBA code.
 
-#Command
-###Command for DeleteAllWorkbookCharts
+# Command
+### Command for DeleteAllWorkbookCharts
 ```
 Sub DeleteAllWorkbookCharts()
 
@@ -26,7 +26,7 @@ Next wk
 
 End Sub
 ```
-###Command for Save Chart
+### Command for Save Chart
 ```
 Option Explicit
 Sub SaveChartKX()
